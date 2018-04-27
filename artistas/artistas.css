@@ -1,0 +1,105 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background: #d4d0d1;
+  margin: 0;
+}
+header {
+  background-image: url(../imagenes/background.png);
+  background-size: cover;
+}
+
+.contenedor {
+	width: 60%;
+	margin: auto;
+	position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+.menu {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+}
+a:link {
+	color: white;
+	text-decoration: none
+}
+a:visited {
+	color: white;
+	text-decoration: none
+}
+a:hover {
+	color: #273b47;
+	text-decoration: underline
+}
+
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  /* background: #93effc; */
+}
+.artista {
+  display: flex;
+  flex-direction: column;
+  /* background: orange; */
+  margin-top: 50px;
+  width: 400px;
+}
+.artista figure {
+  margin: 0 auto;
+}
+.artista img {
+  width: 300px;
+}
+.artista p {
+  font-size: 20px;
+}
+
+.footer {
+  background: #517d96;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.patrocinadores {
+	display: inline-block;
+	justify-content: flex-start;
+	margin-left: 50px;
+}
+.patrocinadores img {
+	margin: 5px 10px;
+}
+.span {
+	display: inline-block;
+	justify-content: flex-end;
+	position: relative;
+	margin-right: 70px;
+	width: 35%;
+	height: 100%;
+}
+.span span {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+.span strong {
+	font-size: 25px;
+}
